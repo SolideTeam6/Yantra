@@ -20,10 +20,10 @@
     #logo_max_resolution {
         display: block;
     }
+
     #logo_m_resolution {
         display: none;
     }
-
 }
 
 @media (min-width: 570px) and (max-width: 990px) {
@@ -34,49 +34,67 @@
     #logo_max_resolution {
         display: none;
     }
+
     #logo_m_resolution {
         display: none;
     }
 
-    #layer4_slide1{
+    #layer4_slide1 {
         display: none;
     }
-
 }
 
 @media (min-width: 240px) and (max-width: 569px) {
 
+    #layer4_slide1{
+        display: none !important;
+    }
+
+    #btn_checa {
+        padding: 9px 27px !important;
+        font-size: 15px !important;
+        margin-top: 15% !important;
+    }
+
+    #btn_drinks {
+        padding: 9px 27px !important;
+        font-size: 15px !important;
+        margin-top: 15% !important;
+    }
+
     .nav-type-4 .logo-container {
-    width: 89% !important;
-     padding: 0 !important; 
-}
-    #yantra_slide1{
-       font-size: 170px;
+        width: 89% !important;
+        padding: 0 !important;
     }
 
-    #burguer_div{
-        font-size:120px;
+    #yantra_slide1 {
+        font-size: 170px;
     }
 
-    #drinks_div{
-        font-size:120px;
+    #burguer_div {
+        font-size: 120px;
     }
 
-    #ven_div{
-        font-size:120px;
+    #drinks_div {
+        font-size: 120px;
+    }
+
+    #ven_div {
+        font-size: 120px;
         margin-bottom: 10%;
     }
 
-    #mejor_div{
-          margin-top: 10%;
-        font-size:80px;
-    }
-
-    #nuestro_div{
+    #mejor_div {
         margin-top: 10%;
-        font-size:80px;
+        font-size: 80px;
+    }
+
+    #nuestro_div {
+        margin-top: 10%;
+        font-size: 80px;
         margin-bottom: 10%;
     }
+
     #logo_min_resolution {
         display: none;
     }
