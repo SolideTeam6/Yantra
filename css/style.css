@@ -3261,7 +3261,9 @@ input.searchbox:focus {
 /* Intro
 -------------------------------------------------------*/
 .section-wrap.intro {
-  padding: 170px 0 150px;
+  /*padding: 170px 0 150px;*/
+  padding: 100px 0 50px;
+
 }
 
 .intro.style-2 .intro-text p {
@@ -3932,7 +3934,8 @@ label {
 /* Footer
 /*-------------------------------------------------------*/
 .footer.minimal {
-  padding: 120px 0;
+  /*padding: 120px 0;*/
+      padding: 40px 0;
   text-align: center;
 }
 
@@ -4079,7 +4082,7 @@ p.footer-address {
 }
 
 .social-icons a:hover {
-  color: #fff;
+  color: #fff !important;
 }
 
 .bottom-footer {
