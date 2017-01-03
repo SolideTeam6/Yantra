@@ -50,7 +50,33 @@
     width: 89% !important;
      padding: 0 !important; 
 }
+    #yantra_slide1{
+       font-size: 170px;
+    }
 
+    #burguer_div{
+        font-size:120px;
+    }
+
+    #drinks_div{
+        font-size:120px;
+    }
+
+    #ven_div{
+        font-size:120px;
+        margin-bottom: 10%;
+    }
+
+    #mejor_div{
+          margin-top: 10%;
+        font-size:80px;
+    }
+
+    #nuestro_div{
+        margin-top: 10%;
+        font-size:80px;
+        margin-bottom: 10%;
+    }
     #logo_min_resolution {
         display: none;
     }
