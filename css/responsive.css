@@ -26,6 +26,14 @@
     }
 }
 
+@media (min-width: 991px) and (max-width: 1199px) {
+
+    .heading-frame{
+        padding: 38px 10px;
+
+    }
+}
+
 @media (min-width: 570px) and (max-width: 990px) {
     #logo_min_resolution {
         display: block;
@@ -111,6 +119,14 @@
     .logo-container {
         width: 85% !important;
         margin-top: 0%;
+    }
+
+    .promo-description{
+        padding: 0 5px 0 13px !important;
+    }
+
+    .vertical .carousel-inner > .item {
+        padding-right: 15px !important;
     }
 }
 
