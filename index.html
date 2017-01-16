@@ -373,7 +373,9 @@
                     <div class="item">
                         <div class="container" style="width: 100%;">
                             <div class="row" style="text-align: center;">
-                                <h2 class="color-white">Drinks</h2>
+                                <!--<div class="customNavigation"><a class="prev" data-toggle="tooltip" title="Cortes, burguer's & snacks"><i class="fa fa-arrow-left"></i></a> &nbsp;&nbsp;</div>-->
+                                
+                                <h2 class="color-white">Bebidas, Drinks & shoots</h2>
                             </div>
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 promo-description" id="div_menu_slider">
@@ -1467,8 +1469,8 @@
                             </div>
                             <div class="row" style="text-align: center;">
                                 <div class="customNavigation mt-40" style="text-align: center;">
-                                    <a class="prev"><i class="fa fa-arrow-left"></i></a>
-                                    <a class="next"><i class="fa fa-arrow-right"></i></a>
+                                    <a class="prev" data-toggle="tooltip" title="Cortes, burguer's & snacks" ><i class="fa fa-arrow-left"></i></a>
+                                    <a class="next" data-toggle="tooltip" title="Cortes, burguer's & snacks"><i class="fa fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -2086,8 +2088,8 @@
                             </div>
                             <div class="row" style="text-align: center;">
                                 <div class="customNavigation mt-40" style="text-align: center;">
-                                    <a class="prev"><i class="fa fa-arrow-left"></i></a>
-                                    <a class="next"><i class="fa fa-arrow-right"></i></a>
+                                    <a class="prev" data-toggle="tooltip" title="bebidas, drinks & shoots"><i class="fa fa-arrow-left"></i></a>
+                                    <a class="next" data-toggle="tooltip" title="bebidas, drinks & shoots"><i class="fa fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -2276,6 +2278,8 @@
 
 
         $(document).ready(function () {
+
+            $('[data-toggle="tooltip"]').tooltip();
 
             $('#submit_CONTACTO').click(function () {
 
