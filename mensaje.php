@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
 
 // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-$email_to = "contacto@solidemx.com";
+$email_to = "contacto@yantrabar.com";
 $email_subject = "Mensaje nuevo de via Yantrabar.com ";
 
 // Aquí se deberían validar los datos ingresados por el usuario
