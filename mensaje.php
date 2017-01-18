@@ -8,6 +8,7 @@ $email_subject = "Mensaje nuevo de via Yantrabar.com ";
 // Aquí se deberían validar los datos ingresados por el usuario
 if(!isset($_POST['nombre']) ||
 !isset($_POST['email']) ||
+!isset($_POST['asunto']) ||
 !isset($_POST['mensaje']))  {
 	
 	echo '<script type="text/javascript">',
@@ -21,6 +22,7 @@ die();
 $email_message = "Mensaje nuevo:\n\n";
 $email_message .= "Nombre: " . $_POST['nombre'] . "\n"; //first_name
 $email_message .= "E-mail: " . $_POST['email'] . "\n";
+$email_message .= "Razon del mensaje: " . $_POST['asunto'] . "\n";
 $email_message .= "Mensaje: " . $_POST['mensaje'] . "\n\n";
 
 
